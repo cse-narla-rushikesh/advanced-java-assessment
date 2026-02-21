@@ -1,5 +1,6 @@
 package com.example.demo;
 
+import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
@@ -8,7 +9,7 @@ public class SpringStorageServiceSystemApplication {
 	
 	 public static void main(String[] args) {
 
-	        
+		   SpringApplication.run(SpringStorageServiceSystemApplication.class, args);
 	        AnnotationConfigApplicationContext context =
 	                new AnnotationConfigApplicationContext(SpringStorageServiceSystemApplication.class);
 
